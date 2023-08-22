@@ -259,3 +259,10 @@ FROM table1
 WHERE col3  > 5 AND col4 LIKE '%os%'
 ORDER BY col5
 LIMIT 10;
+
+-- LENGTH Function
+-- LENGTH() function is used to determine the number of characters in a string. The LENGTH() function works with various types of strings, such as text, VARCHAR, and CHAR. Note that some databases also provide an equivalent function called LEN().
+SELECT LENGTH(column_name) FROM table_name;
+-- OR
+SELECT CITY, LENGTH(CITY) AS City_Length
+FROM STATION;
