@@ -1,6 +1,5 @@
 JOIN
 
-
 Why Would We Want to Split Data Into Separate Tables?
 
 -- Splitting data into separate tables is a common practice in relational database design, and it offers several benefits that help organize and manage data effectively. Here are some reasons why you might want to split data into separate tables:

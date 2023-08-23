@@ -1,3 +1,5 @@
+Basic Statements in SQL
+
 -- To Select columns from tables
 -- * indicate selecting all the columns in table orders
 SELECT * FROM orders;
